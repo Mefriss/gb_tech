@@ -1,0 +1,77 @@
+{
+  "_resourceType": "actor",
+  "id": "254cb676-e246-40fd-9026-3654c771fc2d",
+  "name": "DICK2",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "777df202-fa38-4314-b3c8-91378f3ca73e",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_1",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "e8549222-c88a-48a8-8964-8d2787feba64",
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "0034005a-9fd4-4212-9166-83f31bf6b919"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "ce1b7fe4-f062-4d01-a1e1-5204aa2fb71b"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "a436ee62-27e6-4b37-a76a-5dd567c00bba"
+          }
+        ]
+      },
+      "id": "21078845-3770-4330-a924-d7cb504e744c"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 7,
+  "_index": 1
+}

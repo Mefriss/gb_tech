@@ -1,0 +1,183 @@
+{
+  "_resourceType": "script",
+  "id": "7182ea36-e4b6-44ed-9188-cb7dee219f84",
+  "name": "Activate_Marcinko_Normal",
+  "description": "",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    },
+    "1": {
+      "id": "1",
+      "name": "Actor B"
+    },
+    "2": {
+      "id": "2",
+      "name": "Actor C"
+    },
+    "3": {
+      "id": "3",
+      "name": "Actor D"
+    },
+    "4": {
+      "id": "4",
+      "name": "Actor E"
+    },
+    "5": {
+      "id": "5",
+      "name": "Actor F"
+    },
+    "6": {
+      "id": "6",
+      "name": "Actor G"
+    },
+    "7": {
+      "id": "7",
+      "name": "Actor H"
+    },
+    "8": {
+      "id": "8",
+      "name": "Actor I"
+    }
+  },
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "0"
+      },
+      "id": "bcdadff4-3317-4cae-b9bb-81d7d7986436"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "1"
+      },
+      "id": "e2384671-247a-48e4-a15d-123d8fff92eb"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "2"
+      },
+      "id": "68e27e0c-7468-441a-891b-2248e2a1af0f"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "3"
+      },
+      "id": "44316f21-ec0d-4957-8dc9-da69b1caf9d8"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "4"
+      },
+      "id": "4c3755f9-0d05-4820-8d25-0d2d5306e7c4"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "5"
+      },
+      "id": "d92d7d5f-803d-4dae-a53e-a8cb06485949"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "6"
+      },
+      "id": "56a37dda-131e-4235-ab93-688f3b7618a5"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "7"
+      },
+      "id": "cebab86c-d854-424c-a1e0-77bfa638f9e5"
+    },
+    {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "8"
+      },
+      "id": "8f3b3814-af0f-4aea-851d-23583c174007"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "0",
+        "spriteSheetId": "5cbdb3a5-7f05-4b6b-bb76-527221d9b746"
+      },
+      "id": "55dbb416-ac16-490c-9ee6-f44883c01369"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "1",
+        "spriteSheetId": "777df202-fa38-4314-b3c8-91378f3ca73e"
+      },
+      "id": "eb6824a9-4d1f-419c-961b-4b7ed05014f1"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "2",
+        "spriteSheetId": "d18f041d-69a9-4388-a85c-e8943854882f"
+      },
+      "id": "64ae5814-fb80-4729-ba43-7d21ef316997"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "3",
+        "spriteSheetId": "7544b8b0-b652-49ca-96ea-565861b491c9"
+      },
+      "id": "51d1ab62-dae5-45af-ae30-8329c67b8e25"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "4",
+        "spriteSheetId": "45f1b602-18a9-4198-8b99-4c386624dae7"
+      },
+      "id": "aa8337da-899a-41e2-91e5-32dca75d12f1"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "5",
+        "spriteSheetId": "c5d6eedf-c6a7-462d-a779-61d7cd8bd7a9"
+      },
+      "id": "8edc0064-b2e7-408b-a456-c72ff12f6942"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "6",
+        "spriteSheetId": "9ab44e42-6238-433a-a4d9-2c458e2c6bc7"
+      },
+      "id": "78613cd8-5584-42d2-bf7c-58e3e87e764c"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "7",
+        "spriteSheetId": "92478409-df7e-45f1-8bb5-6a3369e3d4a7"
+      },
+      "id": "956e949e-1a9b-43e0-bced-c302acbb588d"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_SPRITE",
+      "args": {
+        "actorId": "8",
+        "spriteSheetId": "c5a0c9bf-21aa-4120-bc73-63f9f3428bf1"
+      },
+      "id": "5751c5a1-a38f-49f6-b891-12b28b470c05"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "end_move",
+      "symbol": "var_end_move"
+    },
+    {
+      "id": "1",
+      "name": "squished_h",
+      "symbol": "var_squished_h"
+    },
+    {
+      "id": "2",
+      "name": "Squished_v",
+      "symbol": "var_squished_v"
+    },
+    {
+      "id": "3",
+      "name": "Dick_pos_x",
+      "symbol": "var_dick_pos_x"
+    },
+    {
+      "id": "4",
+      "name": "Dick_pos_y",
+      "symbol": "var_dick_pos_y"
+    },
+    {
+      "id": "5",
+      "name": "Score",
+      "symbol": "var_score"
+    },
+    {
+      "id": "6",
+      "name": "Good_pos",
+      "symbol": "var_good_pos"
+    }
+  ]
+}

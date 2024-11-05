@@ -1,0 +1,37 @@
+{
+  "_resourceType": "actor",
+  "id": "d7c25161-f4fe-4a70-9cdd-cb696b183ea0",
+  "name": "DICK5",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "45f1b602-18a9-4198-8b99-4c386624dae7",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_0",
+  "script": [],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "e8549222-c88a-48a8-8964-8d2787feba64",
+        "__comment": true,
+        "__collapse": true
+      },
+      "id": "3e02d48f-e8a6-495a-8e0a-7e971e42810a"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 9,
+  "y": 9,
+  "_index": 0
+}
