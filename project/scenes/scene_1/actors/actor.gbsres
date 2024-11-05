@@ -303,7 +303,7 @@
         "$actor[6]$": "e82627fc-f580-418e-b694-62a917f253e8",
         "$actor[7]$": "338c4877-7b3a-4036-a4e0-b5f26b19362b",
         "$actor[8]$": "44abc7bc-5536-40c8-baac-9916fe5e65e3",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "0bdcf198-26b7-45ea-8a02-45fba2dc7418"
     },
